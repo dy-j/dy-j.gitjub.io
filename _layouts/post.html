@@ -33,6 +33,12 @@ layout: default
 
           <hr>
 
+          <div class="">
+            <div class="btn">
+              <a onclick="kakaoShare">카카오톡 공유하기</a>
+            </div>
+          </div>
+
           <div class="clearfix">
 
             {% if page.previous.url %}
@@ -52,3 +58,4 @@ layout: default
   </article>
 
 {% include disqus.html %}
+{% include kakao.html %}
